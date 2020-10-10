@@ -2,29 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--fonts-->
+	<link rel="stylsheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap">
+	<link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <style>
-        body {
-            background-color : black;
-        }
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-        h1 {
-            text-align: center;
-            font-family : Comic Sans MS;
-            color: white;
-        }
-
-        p {
-            color: white;
-        }
-
-
-    </style>
+	<title>Subhendu Dash | Portfolio</title>
+	
 </head>
-<body>
-    <h1>ABOUT ME</h1>
-    <p>I am Subhendu Dash.</p>
+
+<body style = "background-color: gray;">
+
+<div class = "bg"></div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">Subhendu Dash</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Experiences</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+	  <button class="btn btn-success my-2 my-sm-1" onclick="window.location.href='mailto:sdash29102@gmail.com';"><i class="fa fa-paper-plane"></i> Contact Me!</button>
+    </form>
+  </div>
+</nav>
+
 </body>
 </html>
