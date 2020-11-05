@@ -37,3 +37,20 @@
 	border: 1px solid black;
 	background-color: black;
 }
+
+.parallax {
+	padding: 100px; 
+	text-align: center;  
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;    /*Used for parallax scrolling*/
+}
+
+#Projects {
+	background-image: url("project.jpg");
+}
+
+#Blog {
+	background-image: url("blog.png");
+}
