@@ -1,10 +1,10 @@
-.profile {
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
-	margin: 15px;
-	text-align:center;
-	border: 4px dotted black;
+#Home {
+	padding: 300px;
+	background-image: url('City_Theme.jpg'); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .socials {
@@ -14,7 +14,7 @@
   
 }
 .socials a {
-	color: white;
+	color: black;
 	display: inline-block;
 	font-size: 1.2em;
 	padding: 10px;
@@ -22,7 +22,7 @@
 	height: 45px;
 	text-align: center;
 	line-height: 1.25;
-	border: 1px solid white;
+	border: 1px solid black;
 	border-radius: 100%;
 	margin: 0 10px;
 	transition: all 0.15s linear;
@@ -51,6 +51,6 @@
 	background-image: url("project.jpg");
 }
 
-#Blog {
+#Blogs {
 	background-image: url("blog.png");
 }
