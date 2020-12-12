@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+#intro {
+    padding: 100px;
+}
+
+#about {
+    color: white;
+    text-align: center;
+}
+
+#desc {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+#photo {
+    border-radius: 50%;
+    width: 250px;
+	height: 250px;
+	margin: 15px;
+	text-align:center;
+	border: 4px dotted black;
+}
+
+#social {
+    text-align: center;
+    color: white;
+}
+
+#social a {
+	color: white;
+	display: inline-block;
+	font-size: 1.2em;
+	padding: 10px;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	line-height: 1.25;
+	border: 1px solid white;
+	border-radius: 100%;
+	margin: 0 10px;
+	transition: all 0.15s linear;
+	transform: scale(1);
+}
+
+#social a:hover {
+	color: whitesmoke;
+	border: 1px solid whitesmoke;
+	transform: scale(1.5);
+}
+
+#exp {
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
+#project {
+    color:white;
+    text-align: center;
+    padding: 100px;
+}
+
+#Card {
+    background-color: black;
+    border: 1px solid white;
+}
+
+#project_img {
+    height: 300px;
+}
+
+#blog {
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
